@@ -114,7 +114,7 @@ function App() {
                     <div class="project__year">
                         <p>2020</p>
                     </div>
-                    <p>Dashboard</p>
+                    <p>Dashboard</p >
                 </span>
                 
                 <p class="project__text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
