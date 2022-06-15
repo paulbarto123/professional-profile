@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&display=swap");
+ 
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +14,233 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.header {
+  margin-bottom: 0;
+  margin-top: 200px;
+  height: 400px;
+}
+
+.header .title .name h1, .header .title .name span {
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 60px;
+  color: #21243D;
+}
+
+.header .title p {
+  margin-top: 30px;
+}
+
+.header .detail {
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  /* Dark Color */
+  color: #21243D;
+}
+
+.header .picture img {
+  width: 243px;
+  height: 243px;
+  border-radius: 3px solid #52575C;
+}
+
+#main {
+  width: 100%;
+  height: auto;
+  background: #EDF7FA;
+}
+
+#main .content .contact .headline {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+  /* PRIMARY / GREEN */
+  color: #136223;
+}
+
+#main .content .contact .contact__item .contact__item__icon img {
+  height: 17.6px;
+  width: 16.9x;
+  border-radius: 0px;
+}
+
+#main .content .contact .contact__item .contact__item__detail {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.05em;
+}
+
+#main .content .education .headline {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+  /* PRIMARY / GREEN */
+  color: #136223;
+}
+
+#main .content .education .education__detail .university {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  letter-spacing: 0.015em;
+  color: #000000;
+  /* Inside Auto Layout */
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+  margin: 6px 0px;
+}
+
+#main .content .education .education__detail ul .major {
+  font-family: Inter;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+  color: #000000;
+}
+
+#main .content .education .education__detail ul li {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+  color: #52575C;
+  /* Inside Auto Layout */
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+  margin: 6px 0px;
+}
+
+/* Rectangle 32 */
+.project .project__title h1 {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+  /* PRIMARY / GREEN */
+  color: #136223;
+}
+
+.project .project__detail {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #E0E0E0;
+  padding-bottom: 30px;
+}
+
+.project .project__detail img {
+  width: 246px;
+  height: 180px;
+  border-radius: 6px;
+}
+
+.project .project__detail .project__text__detail .project__date .project__year {
+  width: 62px;
+  height: 25px;
+  background: #142850;
+  border-radius: 16px;
+  text-align: center;
+}
+
+.project .project__detail .project__text__detail .project__date .project__year p {
+  top: 1123px;
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  /* identical to box height, or 333% */
+  color: #FFFFFF;
+}
+
+.project .project__detail .project__text__detail .project__date p {
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 29px;
+  /* Light */
+  color: #8695A4;
+}
+
+.project .project__detail .project__text__detail .project__text {
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  /* Dark Color */
+  color: #21243D;
+}
+
+.project .project__detail .project__text__detail .project__text_title {
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 44px;
+  /* identical to box height */
+  /* Dark Color */
+  color: #21243D;
+}
+
+.footer .footer__icon a {
+  margin-bottom: 26px;
+}
+
+.footer .footer__icon a img {
+  width: 30px;
+  height: 30px;
+}
+/*# sourceMappingURL=style.css.map */
